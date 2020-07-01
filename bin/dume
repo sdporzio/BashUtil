@@ -1,1 +1,3 @@
+# Run du in the current directory
+
 run "du -csh * | sort -hr"

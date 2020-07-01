@@ -1,0 +1,3 @@
+# Find recursively any file in current directory
+
+run "find . -name \"*${1}*\""

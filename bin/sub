@@ -1,0 +1,7 @@
+# Open the right Sublime Text
+
+if [ -z "$1" ]; then
+  /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl .
+else
+  /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ${1}
+fi

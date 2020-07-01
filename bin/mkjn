@@ -1,0 +1,3 @@
+# Create jupyter notebook file
+
+cp /Users/sdporzio/Software/SampleFiles/sample.ipynb ${1}

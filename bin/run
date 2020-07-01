@@ -1,0 +1,12 @@
+# Tell me what I am running
+
+BOLD=1
+ITALIC=3
+YELLOW=33
+BLINK=5
+INVERT=7
+
+COLOR="\033[${YELLOW};${BOLD};${ITALIC}m"
+DEFAULT='\033[0m'
+echo -e "${COLOR}-> ${1}${DEFAULT}";
+eval ${1};

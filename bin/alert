@@ -1,0 +1,19 @@
+# Tell me what I am running
+
+BOLD=1
+FAINT=2
+ITALIC=3
+FG_YELLOW=33
+BG_YELLOW=43
+FG_RED=31
+BG_RED=41
+FG_WHITE=37
+BG_WHITE=47
+BLINK=5
+INVERT=7
+
+
+COLOR="\033[${FG_RED};${BG_WHITE};${BOLD}m"
+DEFAULT='\033[0m'
+echo -e "${COLOR}${1}${DEFAULT}";
+eval ${1};

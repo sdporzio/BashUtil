@@ -1,0 +1,1 @@
+run "du -csh * | sort -hr"

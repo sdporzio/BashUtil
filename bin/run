@@ -6,7 +6,7 @@ YELLOW=33
 BLINK=5
 INVERT=7
 
-COLOR="\033[${YELLOW};${BOLD};${ITALIC}m"
+COLOR="\033[${YELLOW};${BOLD}m"
 DEFAULT='\033[0m'
 echo -e "${COLOR}-> ${1}${DEFAULT}";
 eval ${1};

@@ -1,4 +1,0 @@
-# Source and setup anaconda
-
-eval "$(/Users/sdporzio/Software/Miniconda/bin/conda shell.bash hook)"
-conda activate ana
